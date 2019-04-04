@@ -1,0 +1,79 @@
+/* nav media query */
+
+@media screen and (max-width: 400px) {
+    .nav-li {}
+    .nav-li:first-child {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .nav-li {
+        list-style-type: none;
+        margin: 0 1rem;
+    }
+    .nav-li:first-child {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .nav-li {
+        list-style-type: none;
+        margin: 0 3rem;
+    }
+    .nav-li:first-child {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 885px) {
+    .nav-li {
+        list-style-type: none;
+        margin: 0 2rem;
+    }
+}
+
+
+/* media query for the button */
+
+@media screen and (max-width: 550px) {
+    .play_sign {
+        top: 27%;
+        transform: translate(-50%);
+        width: 10rem;
+    }
+}
+
+@media screen and (max-width: 598px) {
+    .play_sign {
+        top: 21%;
+        transform: translate(-50%);
+        width: 10rem;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .play_sign {
+        top: 26%;
+        transform: translate(-50%);
+        width: 250px;
+    }
+}
+
+
+/* @media screen and (max-width: 1000px) {
+    .play_sign {
+        top: 50%;
+        transform: translate(-50%);
+        width: 17rem;
+    }
+}
+
+@media screen and (max-width: 1260px) {
+    .play_sign {
+        top: 60%;
+        transform: translate(-50%);
+        width: 17rem;
+    }
+} */

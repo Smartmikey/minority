@@ -21,7 +21,7 @@ nav {
 
 .nav-li {
     list-style-type: none;
-    margin-left: 20rem;
+    margin: 0 10rem;
 }
 
 .nav-li a {
@@ -30,7 +30,15 @@ nav {
 }
 
 .nav-li:first-child {
-    margin-left: 0;
+    margin-left: 70px;
+}
+
+.nav-li:last-child {
+    margin-right: 70px;
+}
+
+.plat-container {
+    position: relative;
 }
 
 .play_sign {
