@@ -2,6 +2,10 @@
     box-sizing: content-box;
 }
 
+body {
+    background-color: #14192c;
+}
+
 * {
     font-family: Cambria, Cochin, Georgia, serif;
 }
@@ -126,7 +130,7 @@ nav {
     position: relative;
     background: #14192c url("../assets/footer_bg.png");
     background-size: cover;
-    height: 40rem;
+    height: 67rem;
     width: 100%;
 }
 
@@ -162,4 +166,13 @@ nav {
 
 .img-cont {
     display: inline-block;
+}
+
+.heading-color {
+    color: #a9daf5;
+}
+
+.desc-text {
+    font-size: 12px;
+    color: #fff;
 }
